@@ -1,0 +1,140 @@
+/* Resetowanie domyślnych stylów dla body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Kolor tła dla całej strony */
+}
+
+/* Stylowanie dla głównego nagłówka */
+h1 {
+  color: #007bff;
+  margin-left: 10px;
+}
+
+/* Stylowanie dla elementów input typu tekst, select oraz button */
+input[type="text"],
+select,
+button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* Stylowanie dla przycisków */
+button {
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+/* Efekt hover dla przycisków */
+button:hover {
+  background-color: #218838;
+}
+
+/* Stylowanie dla listy nieuporządkowanej */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Stylowanie dla elementów listy */
+li {
+  margin-bottom: 10px;
+}
+
+/* Stylowanie dla klikalnych spanów */
+span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Efekt hover dla spanów */
+span:hover {
+  color: #0056b3;
+}
+
+/* Stylowanie dla etykiety */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Stylowanie dla elementu select */
+select {
+  width: 50%;
+}
+
+/* Stylowanie dla checkboxów */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Stylowanie dla inputów typu tekst */
+input[type="text"] {
+  width: 70%;
+}
+
+/* Stylowanie dla stopki */
+footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* Stylowanie dla logo aplikacji */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Media queries dla redukcji ruchu */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Stylowanie dla nagłówka aplikacji */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Stylowanie dla linków */
+a {
+  color: #61dafb;
+}
+
+/* Keyframes dla animacji obrotu logo aplikacji */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h4{
+  color: red;
+  font-size: 20px;
+  background-color: white;
+  text-shadow: 0px 0px 10px black;
+  font-family: 'Times New Roman', Times, serif;
+
+}
